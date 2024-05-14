@@ -8,8 +8,8 @@ const Hero = () => {
           <h1 className="text-7xl font-bold max-w-3xl">Hampshire Based Electrical Company</h1>
           <p className="py-6 max-w-2xl text-lg">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
           <div className="flex flex-col md:flex-row gap-3 lg:gap-4 mx-auto">
-            <button className="btn btn-primary w-full lg:w-36">Get Started</button>
-            <button className="btn w-full lg:w-36 btn-outline">Get Started</button>
+            <button className="btn btn-primary w-full lg:w-36">Our Work<i className="fa-solid fa-arrow-right mt-[2px]"></i></button>
+            <button className="btn w-full lg:w-36 btn-outline">Contact Us</button>
           </div>
         </div>
         <img src={HeroImage} className="rounded-lg hidden lg:block max-w-xl" alt="Hero" />
