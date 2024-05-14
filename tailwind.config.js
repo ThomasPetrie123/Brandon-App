@@ -8,6 +8,7 @@ export default {
     "./src/App.tsx",
     "./src/components/Message.tsx",
     "./src/components/Navbar.tsx",
+    "./src/components/Hero.tsx",
     flowbite.content()
   ],
   theme: {
