@@ -19,7 +19,32 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["light", "dark"],
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          ".btn-logo": {
+            "background-color": "#faaf21",
+            "border-color": "#faaf21",
+          },
+          ".btn-logo:hover": {
+            "background-color": "#e39f1e",
+            "border-color": "#e39f1e",
+          }
+        },
+        dark: {
+          ...require("daisyui/src/theming/themes")["dark"],
+          ".btn-logo": {
+            "background-color": "#01adf2",
+            "border-color": "#01adf2",
+          },
+          ".btn-logo:hover": {
+            "background-color": "#0299d6",
+            "border-color": "#0299d6",
+          }
+        },
+      },
+    ],
   },
 }
 
