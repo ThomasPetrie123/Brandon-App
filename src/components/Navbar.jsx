@@ -1,3 +1,5 @@
+import ThemeController from "./ThemeController"
+
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 fixed z-20 shadow-md">
@@ -27,18 +29,19 @@ const Navbar = () => {
       <li><a>About</a></li>
       <li>
         <details>
-          <summary>Resources</summary>
+          <summary>Services</summary>
           <ul className="p-2">
             <li><a>Submenu 1</a></li>
             <li><a>Submenu 2</a></li>
           </ul>
         </details>
       </li>
-      <li><a>Services</a></li>
+      <li><a>Gallery</a></li>
     </ul>
   </div>
   <div className="navbar-end me-5">
-    <a className="btn w-28">Button</a>
+    <a className="btn w-28">Contact Us</a>
+    <ThemeController />
   </div>
 </div>
   )

@@ -4,11 +4,11 @@ const flowbite = require("flowbite-react/tailwind");
 export default {
   content: [
     "./index.html",
-    "./src/main.tsx",
-    "./src/App.tsx",
-    "./src/components/Message.tsx",
-    "./src/components/Navbar.tsx",
-    "./src/components/Hero.tsx",
+    "./src/main.jsx",
+    "./src/App.jsx",
+    "./src/components/Message.jsx",
+    "./src/components/Navbar.jsx",
+    "./src/components/Hero.jsx",
     flowbite.content()
   ],
   theme: {
@@ -18,5 +18,8 @@ export default {
     require('flowbite/plugin'),
     require('daisyui'),
   ],
+  daisyui: {
+    themes: ["light", "dark"],
+  },
 }
 
